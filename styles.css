@@ -325,6 +325,27 @@ dd {
   color: #d9cfc1;
 }
 
+.setlist-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 18px;
+  max-width: 920px;
+  margin: -20px auto 34px;
+  color: #d9cfc1;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.setlist-legend span {
+  white-space: nowrap;
+}
+
+.setlist-legend strong {
+  color: var(--cream);
+}
+
 .setlist-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
